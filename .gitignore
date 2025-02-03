@@ -8,6 +8,14 @@ src/archiwrap/__pycache__/*
 src/archiwrap/utils/__pycache__/*
 utils/__pycache__/*
 tests/fixtures/__pycache__/*
+.pytest_cache/
+__pycache__/
+*.pyc
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
 
 # https://stackoverflow.com/questions/61037557/should-i-commit-lock-file-changes-separately-what-should-i-write-for-the-commi
 poetry.lock
